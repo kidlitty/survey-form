@@ -1,0 +1,133 @@
+body {
+    background: linear-gradient(-128deg, #E7F6F2, #A5C9CA, #2C3333);
+    font-family: Tahoma;
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 3rem;
+}
+
+h1 {
+    margin: 5rem 0 0;
+}
+
+form {
+    background-color: #395B64;
+    color: #FFFFFF;
+    margin: auto;
+    width: 65%;
+    border-radius: 15px;
+    padding: 1.5rem;
+    min-width: 300px;
+}
+
+fieldset {
+    border: 0;
+}
+
+label, input, textarea, select {
+    display: block;
+}
+
+    input[type="radio"], input[type="checkbox"] {
+        display: inline;
+    }
+
+textarea {
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    background-color: #2C3333;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    min-width: 300px;
+}
+
+label {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+/*ID SELECTORS*/
+
+#name {
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+
+#name-label {
+    font-weight: bold;
+}
+
+#email {
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+
+#email-label {
+    font-weight: bold;
+}
+
+#number {
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+
+#number-label {
+    font-weight: bold;
+}
+
+#dropdown {
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+
+#dropdown-label {
+    font-weight: bold;
+}
+
+#recommendation-label {
+    font-weight: bold;
+}
+
+#features-label {
+    font-weight: bold;
+}
+
+#features {
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+
+#improvements-label {
+    font-weight: bold;
+}
+
+#comments-label {
+    font-weight: bold;
+}
